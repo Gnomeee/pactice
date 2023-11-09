@@ -1,0 +1,30 @@
+.btn__logIn {
+  display: flex;
+  padding: 12px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: var(--blue-600, #2563eb);
+  background: var(--White, #fff);
+  border: 2px solid #fff;
+}
+.btn__getStarted {
+  border-radius: 8px;
+  border: 2px solid var(--blue-600, #2563eb);
+  background: var(--blue-600, #2563eb);
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  color: var(--White, #fff);
+}
+.btn__watch {
+  display: flex;
+  padding: 12px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: var(--blue-600, #2563eb);
+  background: var(--White, #fff);
+  border: 2px solid #fff;
+}

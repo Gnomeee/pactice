@@ -1,0 +1,88 @@
+// /* Слайдер */
+// .slick-slider {
+// }
+// /* Слайдер запущен */
+// .slick-slider.slick-initialized {
+// }
+// /* Слайдер с точками */
+// .slick-slider.slick-dotted {
+// }
+// /* Ограничивающая оболочка */
+// .slick-list {
+// }
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+// /* Слайд */
+// .slick-slide {
+// }
+// /* Слайд активный (показывается) */
+// .slick-slide.slick-active {
+// }
+// /* Слайд основной */
+// .slick-slide.slick-current {
+// }
+// /* Слайд по центру */
+// .slick-slide.slick-center {
+// }
+// /* Клонированный слайд */
+// .slick-slide.slick-cloned {
+// }
+// /* Стрелка */
+.slider__inner .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  font-size: 0;
+  width: 48px;
+  height: 48px;
+}
+/* Стрелка влево */
+.slider__inner .slick-arrow.slick-prev {
+  left: -80px;
+  background: url("/assets/images/icon/icon-chevron-back.svg") 0 0 / 100%
+    no-repeat;
+}
+/* Стрелка вправо */
+.slider__inner .slick-arrow.slick-next {
+  right: -80px;
+  background: url("/assets/images/icon/icon-chevron-forward.svg") 0 0 / 100%
+    no-repeat;
+}
+.slick-next:before {
+  content: "";
+}
+.slick-prev:before {
+  content: "";
+}
+// /* Стрелка не активная */
+// .slick-arrow.slick-disabled {
+// }
+/* Точки (булиты) */
+.slick-dots {
+  position: absolute;
+  top: 400px;
+  left: 56px;
+}
+// .slick-dots li {
+// }
+/* Активная точка */
+.slick-dots li.slick-active button {
+  width: 32px;
+  height: 8px;
+  border-radius: 10px;
+  background: var(--blue-600, #2563eb);
+  padding-right: 8px;
+}
+.slick-dots li button:before {
+  content: "";
+}
+/* Элемент точки */
+.slick-dots li button {
+  border-radius: 10px;
+  background: var(--blue-gray-400, #94a3b8);
+  width: 8px;
+  height: 8px;
+}
